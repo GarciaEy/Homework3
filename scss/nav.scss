@@ -1,0 +1,26 @@
+nav {
+  height: 100px;
+  background-color: #f5f1ed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+
+  .logo-holder {
+    height: 130%;
+    img {
+      height: 130%;
+    }
+  }
+
+  .links {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}

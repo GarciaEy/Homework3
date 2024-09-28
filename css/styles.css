@@ -1,0 +1,502 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+#app {
+  padding: 50px;
+}
+
+nav {
+  height: 100px;
+  background-color: #f5f1ed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+nav .logo-holder {
+  height: 130%;
+}
+nav .logo-holder img {
+  height: 130%;
+}
+nav .links {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .links a {
+  text-decoration: none;
+  color: black;
+}
+
+.signin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.signin label,
+.signin input {
+  display: block;
+}
+.signin label {
+  margin-bottom: 10px;
+}
+.signin input {
+  width: 60%;
+  height: 50px;
+  margin-bottom: 40px;
+  border-radius: 16px;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.signin .submit {
+  background-color: teal;
+  width: 30%;
+}
+
+.home {
+  height: 100%;
+  width: 100%;
+}
+.home header {
+  height: 300px;
+  background-image: url(../assets/images/download.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.home .content {
+  padding: 20px 50px;
+  /* height: %; */
+  background-color: #a99985;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.home .content h1 {
+  color: #558c8c;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+.home .content section .picTextHolder {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  color: #dfecdf;
+}
+.home .content section .picTextHolder img {
+  height: 200px;
+  width: 200px;
+}
+.home .content section .picTextHolder .C1 {
+  color: #252323;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  width: 200px;
+}
+.home .content section .picTextHolder p {
+  padding-left: 25px;
+  color: #ffedd6;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.home .content section .picTextHolder2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  color: #dfecdf;
+}
+.home .content section .picTextHolder2 img {
+  height: 200px;
+  width: 200px;
+}
+.home .content section .picTextHolder2 .C2 {
+  color: #252323;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  width: 200px;
+}
+.home .content section .picTextHolder2 p {
+  padding-left: 25px;
+  color: #ffedd6;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.home .content section .picTextHolder3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  color: #dfecdf;
+}
+.home .content section .picTextHolder3 img {
+  height: 200px;
+  width: 200px;
+}
+.home .content section .picTextHolder3 .C3 {
+  color: #252323;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  width: 200px;
+}
+.home .content section .picTextHolder3 p {
+  padding-left: 25px;
+  color: #ffedd6;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.about {
+  height: 100%;
+  width: 100%;
+}
+.about header {
+  height: 300px;
+  background-image: url(../assets/images/download.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.about .content {
+  padding: 20px 50px;
+  /* height: %; */
+  background-color: #dad2bc;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.about .content h1 {
+  color: #f5f1ed;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+.about .content section .picTextHolder {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  color: #252323;
+}
+.about .content section .picTextHolder img {
+  height: 200px;
+  width: 200px;
+}
+.about .content section .picTextHolder .C1 {
+  color: #558c8c;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  width: 200px;
+}
+.about .content section .picTextHolder p {
+  padding-left: 25px;
+  color: #252323;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.about .content section .picTextHolder2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  color: #dfecdf;
+}
+.about .content section .picTextHolder2 img {
+  height: 200px;
+  width: 200px;
+}
+.about .content section .picTextHolder2 .C2 {
+  color: #558c8c;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  width: 200px;
+}
+.about .content section .picTextHolder2 p {
+  padding-left: 25px;
+  color: #252323;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.about .content section .picTextHolder3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  color: #dfecdf;
+}
+.about .content section .picTextHolder3 img {
+  height: 200px;
+  width: 200px;
+}
+.about .content section .picTextHolder3 .C3 {
+  color: #558c8c;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  width: 200px;
+}
+.about .content section .picTextHolder3 p {
+  padding-left: 25px;
+  color: #252323;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.gallery {
+  height: 100%;
+  width: 100%;
+}
+.gallery header {
+  height: 300px;
+  background-image: url(../assets/images/download.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.gallery .content {
+  padding: 20px 50px;
+  /* height: %; */
+  background-color: #252323;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.gallery .content h1 {
+  color: #dad2bc;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+.gallery .content section .picTextHolder {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  color: #f5f1ed;
+}
+.gallery .content section .picTextHolder img {
+  height: 200px;
+  width: 200px;
+}
+.gallery .content section .picTextHolder .C1 {
+  color: #a99985;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  width: 200px;
+}
+.gallery .content section .picTextHolder p {
+  padding-left: 25px;
+  color: #f5f1ed;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.gallery .content section .picTextHolder2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  color: #dfecdf;
+}
+.gallery .content section .picTextHolder2 img {
+  height: 200px;
+  width: 200px;
+}
+.gallery .content section .picTextHolder2 .C2 {
+  color: #a99985;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  width: 200px;
+}
+.gallery .content section .picTextHolder2 p {
+  padding-left: 25px;
+  color: #f5f1ed;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.gallery .content section .picTextHolder3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  color: #dfecdf;
+}
+.gallery .content section .picTextHolder3 img {
+  height: 200px;
+  width: 200px;
+}
+.gallery .content section .picTextHolder3 .C3 {
+  color: #a99985;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  width: 200px;
+}
+.gallery .content section .picTextHolder3 p {
+  padding-left: 25px;
+  color: #f5f1ed;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.contact {
+  height: 100%;
+  width: 100%;
+}
+.contact header {
+  height: 300px;
+  background-image: url(../assets/images/download.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.contact .content {
+  padding: 20px 50px;
+  /* height: %; */
+  background-color: #f5f1ed;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.contact .content h1 {
+  color: #252323;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+.contact .content section .picTextHolder {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  color: #f5f1ed;
+}
+.contact .content section .picTextHolder img {
+  height: 200px;
+  width: 200px;
+}
+.contact .content section .picTextHolder .C1 {
+  color: #dad2bc;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  width: 200px;
+}
+.contact .content section .picTextHolder p {
+  padding-left: 25px;
+  color: #a99985;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.contact .content section .picTextHolder2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  color: #dfecdf;
+}
+.contact .content section .picTextHolder2 img {
+  height: 200px;
+  width: 200px;
+}
+.contact .content section .picTextHolder2 .C2 {
+  color: #dad2bc;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  width: 200px;
+}
+.contact .content section .picTextHolder2 p {
+  padding-left: 25px;
+  color: #a99985;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.contact .content section .picTextHolder3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  color: #dfecdf;
+}
+.contact .content section .picTextHolder3 img {
+  height: 200px;
+  width: 200px;
+}
+.contact .content section .picTextHolder3 .C3 {
+  color: #dad2bc;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  width: 200px;
+}
+.contact .content section .picTextHolder3 p {
+  padding-left: 25px;
+  color: #a99985;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
